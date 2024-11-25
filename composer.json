@@ -1,0 +1,20 @@
+{
+    "name": "u0_a234/auth-swift2fa",
+    "autoload": {
+        "psr-4": {
+            "U0A234\\AuthSwift2fa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "codetesla",
+            "email": "uoladele99@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "5.6.x-dev",
+        "uthmandev/swift2fa": "^1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
