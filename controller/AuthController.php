@@ -2,7 +2,7 @@
 session_start();
 ob_start();
 require "DB.php";
-require "../../auto.php";
+require "../config.php";
 use Swift2FA\Swift2FA;
 
 /**
@@ -220,7 +220,7 @@ class AuthUser extends DB
     $s2fa = new Swift2FA();
     $secretKey = $user["secret"];
     $decryptedSecret = $s2fa->decryptKey($secretKey);
-    $verify = $s2fa->TOTPVerify($this->code, $decryptedSecret);
+    $verify = $s2fa->TOTPValidate($this->code, $decryptedSecret);
     if ($verify) {
       header("Location: welcome.php");
     }

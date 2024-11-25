@@ -1,5 +1,5 @@
 <?php
-require "../../config.php";
+require "../config.php";
 
 /**
  * Handles database connection using PDO.
@@ -62,7 +62,4 @@ class DB
   {
     $this->connection = null;
   }
-
-
-  
 }
