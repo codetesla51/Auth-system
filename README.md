@@ -8,7 +8,7 @@ This is a demo authentication system made with **Swift2FA** to demonstrate how e
 - Users can enable  2FA for their accounts.
 - When 2FA is enabled, users will experience an additional layer of security by entering a Time-based One-Time Password (TOTP) code.
 
-# use Swift2Fa  [Swift2FA Repo](https://github.com/codetesla51/swift2FA)
+## use Swift2Fa -->   [Swift2FA Repo](https://github.com/codetesla51/swift2FA)
 
 ## Installation
 
